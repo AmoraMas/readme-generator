@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
+    <title>GitHub Readme Generator</title>
+</head>
+
+<body>
+    <div class="everything">
+        <div class="title">
+            <div class="titleText">
+                GitHub Readme Generator
+            </div>
+            <button type="button" class="submitButton">Submit</button>
+            <button type="reset" class="resetButton">Reset</button>
+        </div>
+        <div class="readmeSection"></div>
+        <form class="form">
+            <div class="question">
+                <h3>General Information</h3>
+                <label for "name">Project Name:</label>
+                <input type="text" id="name" class='thin' name="project_name" />
+            </div>
+            <div class="question">
+                <label for "description">Short Description:</label>
+                <textarea id="description" name="project_description"></textarea>
+            </div>
+            <br>
+            <div class="question">
+                <label for "info">Long Description:</label>
+                <textarea id="info" name="project_info"></textarea>
+            </div>
+            <br>
+            <div class="question">
+                <label for "technologies">Technologies Used:</label>
+                <input type="text" id="technologies" name="project_technologies" />
+            </div>
+            <div class="question">
+                <label for "license">Applicable License:</label>
+                <input type="text" id="license" name="project_license" />
+            </div>
+            <div class="question">
+                <label for "features">Project Features:</label>
+                <input type="text" id="features" name="project_features_1" />
+                <input type="text" id="features" name="project_features_2" />
+                <input type="text" id="features" name="project_features_3" />
+                <input type="text" id="features" name="project_features_4" />
+                <input type="text" id="features" name="project_features_5" />
+            </div>
+            <div class="question">
+                <label for "screenshot">Screenshot Link:</label>
+                <input type="text" id="screenshot" name="project_screenshot" />
+            </div>
+            <div class="question">
+                <label for "demo">Demonstration Link:</label>
+                <input type="text" id="demo" name="project_demo" />
+            </div>
+            <div class="question">
+                <label for "setup">Setup Instructions:</label>
+                <textarea id="setup" name="project_setup"></textarea>
+            </div>
+            <br>
+            <div class="question">
+                <label for "usage">How to Use:</label>
+                <textarea id="usage" name="project_usage"></textarea>
+            </div>
+            <br>
+            <div class="question">
+                <label for "status">Current Status:</label>
+                <input type="text" id="status" name="project_status"></textarea>
+            </div>
+            <hr>
+            <h3>Room for Improvement</h3>
+            <div class="question">
+                <label for "improvements">Things to Improve:</label>
+                <input type="text" id="improvements" name="project_improvements_1" />
+                <input type="text" id="improvements" name="project_improvements_2" />
+                <input type="text" id="improvements" name="project_improvements_3" />
+            </div>
+            <div class="question">
+                <label for "todo">Todo:</label>
+                <input type="text" id="todo" name="project_todo_1" />
+                <input type="text" id="todo" name="project_todo_2" />
+                <input type="text" id="todo" name="project_todo_3" />
+            </div>
+            <hr>
+            <h3>Acknowledgements</h3>
+            <div class="question">
+                <label for "inspiredBy">Inspired By:</label>
+                <input type="text" id="inspiredBy" name="project_inspiredBy" />
+            </div>
+            <div class="question">
+                <label for "basedOn">Based On:</label>
+                <input type="text" id="basedOn" name="project_basedOn" />
+            </div>
+            <div class="question">
+                <label for "contributors">Contributors:</label>
+                <input type="text" id="contributors" name="project_contributors" />
+            </div>
+            <hr>
+            <h3>Contact Info</h3>
+            <div class="question">
+                <label for "email">Email:</label>
+                <input type="email" id="email" class='thin' name="contact_email" />
+            </div>
+            <br>
+        </form>
+    </div>
+</body>
+
+</html>

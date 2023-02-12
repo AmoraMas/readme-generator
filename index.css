@@ -1,0 +1,102 @@
+body {
+    background: #181818;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    position: relative;
+    width: 700px;
+    top: 40px;
+}
+
+button {
+    position: absolute;
+    color: white;
+    width: 70px;
+    margin: 0px;
+}
+
+label {
+    position: absolute;
+    left: 30px;
+}
+
+input,
+textarea {
+    margin-bottom: -25px;
+    position: relative;
+    spellcheck: true;
+    width: 400px;
+    left: 220px;
+}
+
+input {
+    height: 1.5em;
+}
+
+textarea {
+    height: 5em;
+}
+
+h3 {
+    text-align: center;
+    margin: 5px;
+}
+
+.readmeSection {
+    background: rgb(178, 233, 178);
+    border-radius: 10px;
+    position: relative;
+    width: 700px;
+    top: 40px;
+}
+
+.contentBlock {
+    color: black;
+    padding: 10px;
+
+}
+
+.everything {
+    margin-right: auto;
+    margin-left: auto;
+    width: 700px;
+}
+
+.title {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    flex-wrap: wrap;
+    position: fixed;
+    display: flex;
+    width: 500px;
+}
+
+.titleText {
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.question {
+    padding: 5px;
+    border: 0px;
+    margin: 0px;
+}
+
+.thin {
+    width: 200px;
+}
+
+.submitButton {
+    background: green;
+    height: 100%;
+    right: 10px;
+}
+
+.resetButton {
+    background: red;
+    right: -190px;
+    height: 100%;
+}

@@ -39,7 +39,7 @@
 - None needed. Click on demonstration link below.
 - Or to run locally, copy all three index.xxxx files into a directory and point your browser to the index.html page.
 
-[Project Demonstration](https://AmoraMas.github.io/RepoName/)
+[Project Demonstration](https://AmoraMas.github.io/readme-generator)
 
 ## Usage
 
